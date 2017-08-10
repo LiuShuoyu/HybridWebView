@@ -15,6 +15,7 @@
 		477494850A080085F17E96DF73FC030D /* Pods-HybridWebView_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = E4A6BDCB66141155374CC928E123DDCE /* Pods-HybridWebView_Tests-dummy.m */; };
 		48FCE346A7274C96E4B28FEB7109522F /* HybridWebView-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 1591ECE93A4C348F8FED6EEFA0708062 /* HybridWebView-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		51E5058DA503C89E84B20BD1BF73CCAC /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */; };
+		5C618AA81F3C574F00CC8D9C /* HybridView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C618AA71F3C574F00CC8D9C /* HybridView.swift */; };
 		87E148642C6018B2071E5E773C910228 /* HybridWebView-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = EB73FB8137F1116595B55C1529D377AD /* HybridWebView-dummy.m */; };
 		AC3E0D4E7C3570713B5AB6BF9093B333 /* Pods-HybridWebView_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = B43B2DA64A8E764FF37B740107C07E1A /* Pods-HybridWebView_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 /* End PBXBuildFile section */
@@ -40,6 +41,7 @@
 		582A05E540C07B78BF2243DF1A05E48A /* Pods-HybridWebView_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-HybridWebView_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
 		591C31E0E27759D8CBD53F7850A19B58 /* Pods-HybridWebView_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-HybridWebView_Example.modulemap"; sourceTree = "<group>"; };
 		5BD7892EF4447B9EC3DA39BB25A3B406 /* Pods-HybridWebView_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-HybridWebView_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		5C618AA71F3C574F00CC8D9C /* HybridView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HybridView.swift; sourceTree = "<group>"; };
 		8917C0C9BCD5FD42EA581165A8AFC332 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		8DE093759E3607107D63AD12AF0E27E1 /* Pods-HybridWebView_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-HybridWebView_Tests-umbrella.h"; sourceTree = "<group>"; };
 		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
@@ -210,6 +212,7 @@
 			isa = PBXGroup;
 			children = (
 				9A408751310BD2DADBAF4CF082FAE7B0 /* ReplaceMe.swift */,
+				5C618AA71F3C574F00CC8D9C /* HybridView.swift */,
 			);
 			path = Classes;
 			sourceTree = "<group>";
@@ -353,6 +356,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5C618AA81F3C574F00CC8D9C /* HybridView.swift in Sources */,
 				87E148642C6018B2071E5E773C910228 /* HybridWebView-dummy.m in Sources */,
 				0D68D7C4D332F3A7A141033E8A4E5BA7 /* ReplaceMe.swift in Sources */,
 			);
