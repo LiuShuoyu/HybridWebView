@@ -1,11 +1,13 @@
 use_frameworks!
 
 target 'HybridWebView_Example' do
-  pod 'HybridWebView', :path => '../'
+#  pod 'HybridWebView', :path => '../'
+   pod 'HybridWebView', :podspec => '/Users/my/Desktop/HyBridDemo/HybridWebView.podspec'  # 指定podspec文件
 
   target 'HybridWebView_Tests' do
     inherit! :search_paths
+#    pod 'HybridWebView', :path => '../' # 指定路径
+#    pod 'HybridWebView', :podspec => '/Users/my/Desktop/HyBridDemo/HybridWebView.podspec'  # 指定podspec文件
 
-    
   end
 end
