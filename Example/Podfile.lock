@@ -1,0 +1,16 @@
+PODS:
+  - HybridWebView (0.1.0)
+
+DEPENDENCIES:
+  - HybridWebView (from `../`)
+
+EXTERNAL SOURCES:
+  HybridWebView:
+    :path: ../
+
+SPEC CHECKSUMS:
+  HybridWebView: 4c53b2ce7674c899adcaea94d27df132faaebf78
+
+PODFILE CHECKSUM: b1c7e0a200bbd0f1fbbdef25264f5a1b804a4a0a
+
+COCOAPODS: 1.2.1.beta.1

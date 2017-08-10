@@ -1,0 +1,22 @@
+{
+  "name": "HybridWebView",
+  "version": "0.1.0",
+  "summary": "A short description of HybridWebView.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/Liushuoyu/HybridWebView",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "Liushuoyu": "liushuoyu@medlinker.com"
+  },
+  "source": {
+    "git": "https://github.com/Liushuoyu/HybridWebView.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "HybridWebView/Classes/**/*"
+}
