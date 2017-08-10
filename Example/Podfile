@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'HybridWebView_Example' do
+  pod 'HybridWebView', :path => '../'
+
+  target 'HybridWebView_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
